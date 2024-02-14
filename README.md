@@ -17,3 +17,30 @@ Objective of this project is to create, find, update and  delete data in a Datab
 * MongoDB
 * POSTMAN
 * VS Code
+
+#### *Script to run this app*
+1. Download and install MongoDB in your local machine
+2. now open the terminal/command prompt and run these below mentioned commands
+```
+git clone https://github.com/itzFelu/Simple_REST_API-with_CRUD_operations.git
+
+cd Simple_REST_API-with_CRUD_operations
+
+npm i
+npm start
+```
+3. Now open a Browser and go to the link
+   http://localhost:8000/
+4. Now try various routes like, 
+```
+/users
+/api/users
+/api/users/id
+```
+5. You can also check the post, patch and delete routes from POSTMAN
+
+<br>
+<br>
+<br>
+
+###### Enjoy, Thank you! 
