@@ -20,7 +20,7 @@ app.use("/",homeRouter);
 app.use('/api/users',userRouter);
 
 //server start
-app.listen(PORT,()=>console.log("server started at port "+PORT))
+app.listen(PORT || process.env.PORT,()=>console.log("server started at port "+PORT))
 
 
 // app.get('/api/users',)
